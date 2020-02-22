@@ -1,0 +1,48 @@
+/*
+* @Author: dhl
+* @Date:   2018-09-14 20:35:35
+* @Last Modified by:   dhl
+* @Last Modified time: 2018-09-17 22:15:30
+*/
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,p,li,dt,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 12px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+img,input {
+	border: 0 none;
+	outline-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.celarfix::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.celarfix {
+	zoom: 1;
+}
